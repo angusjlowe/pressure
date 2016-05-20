@@ -16,6 +16,9 @@
 
     <!-- Custom CSS -->
     <link href="pressure.css" rel="stylesheet">
+    <script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -104,10 +107,53 @@
 
         <hr class="featurette-divider">
 
+        <h2 class="featurette-heading">The Solution</h2>
+
         <div class="featurette" id="solution">
-          <h2 class="featurette-heading">The Solution</h2>
-          <img class="featurette-image img-responsive torqueani pull-left" src="http://rs636.pbsrc.com/albums/uu90/the_martian_cat/0022.gif~c200"/>
-          <p class="lead">Coming soon.</p>
+
+        <hr class="featurette-divider">
+
+          <img class="featurette-image img-responsive torqueani pull-left" src="img/solution1.PNG"/>
+          <p class="lead">&nbsp; 1. Let m represent mass, F represent force (weight), and g represent
+          the acceleration due to gravity (9.81 m/s<sup>2</sup>).
+          $$ m=71 \ kg$$
+          $$ F = ma = mg$$
+          $$ F = 696.51 \ N$$</p>
+        </div>
+
+        <div class="featurette">
+        <hr class="featurette-divider">
+
+          <img class="featurette-image img-responsive torqueani pull-right" src="img/solution2.PNG"/>
+          <p class="lead">&nbsp; 2. Let r represent radius and A represent area, \( \rho \) represent pressure, and \( \rho_{max} \) represent
+          pressure at which snow collapses (9000 N/m<sup>2</sup>).
+          $$ r = 0.15 m$$
+          $$ A = \pi r^2$$
+          $$ \rho = \frac{F}{A}$$
+          $$ \rho = \frac{F}{\pi r^2} \approx 9851.63 \ N/m^2$$
+          $$ \rho > \rho_{max}$$
+          <br> so the snow will collapse under Angus. Oh no.</p>
+        </div>
+
+        <div class="featurette">
+        <hr class="featurette-divider">
+
+          <img class="featurette-image img-responsive torqueani pull-left" src="img/solution3.PNG"/>
+          <p class="lead">&nbsp; 3. Same as above but substitute 0.3 m for radius, giving a pressure of approximately
+          2461.2 N/m<sup>2</sup> which is less than the critical pressure needed for the snow to collapse, so this time
+          Angus is good. </p>
+        </div>
+
+        <div class="featurette">
+        <hr class="featurette-divider">
+
+          <a href="img/graph.PNG"><img class="featurette-image img-responsive torqueani pull-right" src="img/graph.PNG"/></a>
+          <p class="lead">&nbsp; 4. (Click the graph to download it.) Keeping note of the force \( F = 696.51 \ N \) :
+          $$ \rho = \frac{F}{A}$$
+          <br> so graphing pressure with respect to area: <br><em>(see right) </em><br>
+          and since the force F is a constant, we can say the following where this \( \propto \) means "proportional to":
+          $$ \rho = F \left( \frac{1}{A} \right)$$
+          $$ \rho \propto \frac{1}{A}$$</p>
         </div>
 
         <!-- Footer -->
